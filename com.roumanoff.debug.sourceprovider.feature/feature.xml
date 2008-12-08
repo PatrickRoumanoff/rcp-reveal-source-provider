@@ -2,7 +2,7 @@
 <feature
       id="com.roumanoff.debug.sourceprovider.feature"
       label="Source Provider Debug Feature"
-      version="1.0.0"
+      version="1.0.2.qualifier"
       provider-name="ROUMANOFF">
 
    <description url="http://code.google.com/p/rcprevealsourceprovider/">
@@ -51,7 +51,7 @@ Please consult the Usage page for help and install instruction.
    </license>
 
    <url>
-      <update label="Reveal Source Provider" url="http://rcprevealsourceprovider.googlecode.com/svn/com.roumanoff.debug.sourceprovider.updatesite/"/>
+      <update label="Reveal Source Provider Plug-in" url="http://rcprevealsourceprovider.googlecode.com/svn/update"/>
    </url>
 
    <plugin

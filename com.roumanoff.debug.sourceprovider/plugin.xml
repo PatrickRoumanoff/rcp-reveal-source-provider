@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Debug"
+            id="org.eclipse.debug.ui">
+      </category>
+      <view
+            name="Source Provider Variables"
+            icon="icons/variable_view.gif"
+            category="org.eclipse.debug.ui"
+            class="com.roumanoff.debug.sourceprovider.SourceProviderView"
+            id="com.roumanoff.debug.sourceprovider.views.SampleView">
+      </view>
+   </extension>
+
+</plugin>

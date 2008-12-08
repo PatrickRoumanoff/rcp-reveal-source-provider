@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.roumanoff.debug.sourceprovider.feature"
+      label="Feature Feature"
+      version="1.0.0"
+      provider-name="ROUMANOFF">
+
+   <description url="http://code.google.com/p/rcprevealsourceprovider/">
+      When developing an eclipse plug-in using the expression framework it can be tough to understand how variables and source provider work.
+
+This plug-in allow the developer to track in real time which variable are available in real-time and disaply their values.
+
+This helps debuging *When (enabled, active) expressions based on the with variable extension point.
+
+Please consult the Usage page for help and install instruction.
+   </description>
+
+   <copyright url="http://www.apache.org/licenses/LICENSE-2.0.html">
+      *
+ * Copyright 2008 Patrick Roumanoff
+ *
+ *  Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+   </copyright>
+
+   <license url="http://www.apache.org/licenses/LICENSE-2.0.html">
+      *
+ * Copyright 2008 Patrick Roumanoff
+ *
+ *  Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+   </license>
+
+   <url>
+      <update label="Reveal Source Provider" url="http://rcprevealsourceprovider.googlecode.com/svn/com.roumanoff.debug.sourceprovider.updatesite/"/>
+   </url>
+
+   <plugin
+         id="com.roumanoff.debug.sourceprovider"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

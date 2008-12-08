@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="com.roumanoff.debug.sourceprovider.feature"
-      label="Feature Feature"
+      label="Source Provider Debug Feature"
       version="1.0.0"
       provider-name="ROUMANOFF">
 

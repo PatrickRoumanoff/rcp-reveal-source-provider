@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.roumanoff.rcp</groupId>
@@ -7,7 +7,7 @@
 	<packaging>eclipse-plugin</packaging>
 
 	<scm>
-			<connection>scm:svn:http://rcprevealsourceprovider.googlecode.com/svn/trunk/rcprevealsourceprovider-read-only/com.roumanoff.debug.sourceprovider</connection>
+			<connection>scm:svn:http://rcprevealsourceprovider.googlecode.com/svn/trunk/rcprevealsourceprovider/com.roumanoff.debug.sourceprovider</connection>
 	</scm>
 
 	<build>

@@ -35,8 +35,7 @@
 				<!--  important stuff -->
 				<type>eclipse-installation</type>
 				<scope>system</scope>
-				<systemPath>c:\tools\eclipse\eclipse-3.4\rcp\RCP-3.4.1
-				</systemPath>
+				<systemPath>c:\tools\eclipse\eclipse-3.4\rcp\RCP-3.4.1</systemPath>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

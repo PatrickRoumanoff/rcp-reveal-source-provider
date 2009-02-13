@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.roumanoff.rcp</groupId>
+	<artifactId>com.roumanoff.debug.sourceprovider</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>eclipse-plugin</packaging>
+
+	<scm>
+			<connection>scm:svn:http://rcprevealsourceprovider.googlecode.com/svn/trunk/rcprevealsourceprovider-read-only/com.roumanoff.debug.sourceprovider</connection>
+	</scm>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.tycho</groupId>
+				<artifactId>maven-osgi-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<!-- needed to make maven core happy only, not used by tycho -->
+				<groupId>eclipse.org</groupId>
+				<artifactId>installation</artifactId>
+				<version>0.0.0</version>
+
+				<!--  important stuff -->
+				<type>eclipse-installation</type>
+				<scope>system</scope>
+				<systemPath>c:\tools\eclipse\eclipse-3.4\rcp\RCP-3.4.1
+				</systemPath>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+</project>

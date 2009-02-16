@@ -5,7 +5,7 @@
 	<artifactId>com.roumanoff.debug.sourceprovider</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>eclipse-plugin</packaging>
-
+	<name>Reveal</name>
 	<scm>
 			<connection>scm:svn:http://rcprevealsourceprovider.googlecode.com/svn/trunk/rcprevealsourceprovider/com.roumanoff.debug.sourceprovider</connection>
 	</scm>
@@ -14,7 +14,7 @@
 		<plugins>
 		<plugin>
         <artifactId>maven-release-plugin</artifactId>
-        <version>2.0-beta-8</version>
+        <version>2.0-beta-7</version>
         </plugin>
 			<plugin>
 				<groupId>org.codehaus.tycho</groupId>
